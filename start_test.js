@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // don't need to test yet.
-return process.exit(code);
+return;
 var spawn = require('child_process').spawn;
 
 var workingDir = process.env.WORKING_DIR || process.env.PACKAGE_DIR || './';
